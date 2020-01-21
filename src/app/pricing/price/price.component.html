@@ -1,0 +1,27 @@
+
+<div
+    class="box-container"
+    [class.bg-light]="!isColored"
+    [class.box-container-light]="!isColored"
+    [class.bg-dark]="isColored"
+    [class.txt-dark-strong]="isColored"
+    [class.box-container-dark]="isColored"
+>
+    <div class="txt-small type " [class.type-dark]="isColored" [class.txt-light-weak]="!isColored">{{ item.type }}</div>
+      <div class="txt-big" [class.txt-light-strong]="!isColored">${{ isMonthly ? item.price : item.price * 10 | number : '.2'}}</div>
+    <div class="attribs">
+      <hr [class.hr-dark]="isColored">
+      <div class="txt-small" [class.txt-light-weak]="!isColored">{{ item.storage }} Storage</div>
+      <hr [class.hr-dark]="isColored">
+      <div class="txt-small" [class.txt-light-weak]="!isColored">{{ item.maxUsers }} Users Allowed</div>
+      <hr [class.hr-dark]="isColored">
+      <div class="txt-small" [class.txt-light-weak]="!isColored">Send up to {{ item.maxGB }}</div>
+      <hr [class.hr-dark]="isColored">
+    </div>
+    <button class="btn"
+            [class.btn-light]="!isColored"
+            [class.btn-dark]="isColored"
+    >
+      LEARN MORE
+    </button>
+</div>

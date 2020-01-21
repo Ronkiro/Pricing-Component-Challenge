@@ -1,0 +1,15 @@
+.super-dark-txt {
+  color: hsl(232, 13%, 33%);
+}
+
+.dark-txt {
+  color: hsl(233, 13%, 49%);
+}
+
+.light-txt {
+  color: hsl(234, 14%, 74%);
+}
+
+.super-light-txt {
+  color: hsl(240, 78%, 98%);
+}

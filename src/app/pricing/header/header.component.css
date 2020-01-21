@@ -1,0 +1,12 @@
+.toggle-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.toggle-item {
+  padding: 0 1vw;
+}
+
+.header-component-container {
+  padding-bottom: 10vh;
+}

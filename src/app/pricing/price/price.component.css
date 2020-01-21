@@ -1,0 +1,105 @@
+/* general */
+.box-container {
+  flex-grow: 1;
+  border-radius: 2%;
+  min-width: 250px;
+  min-height: 300px;
+  padding: 4vh 1vw;
+}
+
+.btn {
+  width: 100%;
+  height: 5vh;
+  border-radius: 5px;
+  border: 0;
+  padding: 0;
+  margin-top: 5vh;
+  font-size: 60%;
+  font-family: inherit;
+}
+.attribs {
+  padding-top: 1.5vh;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  opacity: .25;
+  color: hsl(232, 13%, 33%);
+  background-color: hsl(232, 13%, 33%);
+}
+
+.txt-small {
+  font-size: 0.70em;
+}
+
+.txt-big {
+  font-size: 48px;
+}
+
+.type {
+  padding-bottom: 4vh;
+}
+
+/* light stylesheet */
+.bg-light {
+  background-color: hsl(240, 78%, 98%);
+}
+
+.btn-light {
+  background: linear-gradient(left, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: hsl(240, 78%, 98%);
+}
+
+.btn-light:hover {
+  background: hsl(240, 78%, 98%);
+  color: hsl(237, 63%, 64%);
+  border: 1px solid hsl(237, 63%, 64%);
+}
+
+.txt-light-strong {
+  color: hsl(232, 13%, 33%);
+}
+
+.txt-light-weak {
+  color: hsl(233, 13%, 49%);
+}
+
+.box-container-light {
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  height: 40vh;
+}
+
+/* dark stylesheet */
+.bg-dark {
+  background-color: hsl(237, 63%, 64%);
+  background: linear-gradient(135deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+
+.btn-dark {
+  background-color: hsl(240, 78%, 98%);
+  color: hsl(237, 63%, 64%);
+}
+
+.btn-dark:hover {
+  background-color: hsl(237, 63%, 64%);
+  color: hsl(240, 78%, 98%);
+  border: 1px solid hsl(240, 78%, 98%);
+}
+
+.txt-dark-strong, .txt-dark-weak {
+  color: hsl(240, 78%, 98%);
+}
+
+.box-container-dark {
+  min-height: 330px;
+}
+
+.hr-dark {
+  color: hsl(240, 78%, 98%);
+  background-color: hsl(240, 78%, 98%);
+}
+
+.type-dark {
+  padding-top: 3vh
+}

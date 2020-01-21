@@ -1,0 +1,8 @@
+<div class="main">
+  <app-header></app-header>
+  <div class="price-container">
+    <div *ngFor="let item of itemList; index as i">
+      <app-price [item]="item" [index]="i"></app-price>
+    </div>
+  </div>
+</div>
