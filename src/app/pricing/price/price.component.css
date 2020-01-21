@@ -41,13 +41,20 @@ hr {
   padding-bottom: 4vh;
 }
 
+@media screen and (max-width: 920px)
+{
+  .box-container {
+    margin-bottom: 4vh;
+  }
+}
+
 /* light stylesheet */
 .bg-light {
   background-color: hsl(240, 78%, 98%);
 }
 
 .btn-light {
-  background: linear-gradient(left, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: linear-gradient(to left, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: hsl(240, 78%, 98%);
 }
 
